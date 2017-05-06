@@ -5,3 +5,5 @@ List of things that could use a documented answer. Where I've seen a good answer
 * Should you globally install tools you want in your PATH? (1)
 * Can you add project local binaries to your PATH automatically? (1)
 * How can I get private npm packages without paying the 7 bucks a month? (1)
+* When should you split your code into multiple modules? (0)
+* Should you favor small modules over bigger libraries? (0)
