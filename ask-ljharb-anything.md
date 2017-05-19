@@ -8,3 +8,4 @@ List of things that could use a documented answer. Where I've seen a good answer
 * When should you split your code into multiple modules? (0)
 * Should you favor small modules over bigger libraries? (0)
 * Should you write small utility functions yourself or use things like lodash and rambda where possible? (3)
+* Should I lock dependencies on my app or module? (3)
