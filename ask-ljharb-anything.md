@@ -9,3 +9,4 @@ List of things that could use a documented answer. Where I've seen a good answer
 * Should you favor small modules over bigger modules? (0)
 * Should you write small utility functions yourself or use things like lodash and rambda where possible? (3)
 * Should I lock dependencies on my app or module? (3)
+* Can I require relative to the project root to shorten the path? (3)
