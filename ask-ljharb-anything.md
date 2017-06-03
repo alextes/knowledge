@@ -13,3 +13,4 @@ List of things that could use a documented answer. Where I've seen a good answer
 * Should you lock dependencies on my app or module? (3)
 * Can I require relative to the project root to shorten the path? (2)
 * How can I build configurable modules (1)
+* When should you use sync methods over async alternatives? (1)
