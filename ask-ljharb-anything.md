@@ -11,6 +11,6 @@ List of things that could use a documented answer. Where I've seen a good answer
 * Should you use a module or write the code yourself? (1)
 * Should you write small utility functions or use things like lodash and rambda where possible? (3)
 * Should you lock dependencies on my app or module? (3)
-* Can I require relative to the project root to shorten the path? (2)
+* Can I require relative to the project root to shorten the path? (3)
 * How can I build configurable modules (1)
 * When should you use sync methods over async alternatives? (1)
