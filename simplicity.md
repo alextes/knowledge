@@ -36,7 +36,8 @@ It is near in the sense we can easily get to the state we want to be in. If you 
 ### Easy, Fast, Effective?
 Only works short term if you ignore complexity. Development does not work in sprints. It's the same codebase every week. Eventually, going the easy route whilst making things more complex slows you down more than it speeds you up.
 
-## Simplicity
+## Simplicity and Complexity
+Ease of understanding, ease of change, ease of debugging, 
 
 ### Cardinality
 Few is not automatically simple. Conversely many is not automatically hard. Addition does not become more complex when one expression features many terms. It might become harder to compute correctly just because humans make errors when making calculations but addition does not become any more complex.
@@ -49,3 +50,20 @@ Simple to understand is not always simple to obtain.
 
 ### Simplicity is crucial for right direction
 Tests can tell you what not to do. Guardrails can tell drivers they are going somewhere they shouldn't. Test can help but also be completely useless in telling you where to go. For this you need to be able to reason about your program. In order to effectively reason about your program it needs to be simple.
+
+### Incidental complexity
+Code that doesn't change anything for the user but has more complexity than an alternative is incidental complexity. Latin for: your fault. Good examples are tools that make something easier but also add a lot of code, thus behavior, thus increasing complexity.
+
+## Conclusions
+
+### Hard because difficult to obtain or unobtainable
+Think cost of moving things near.
+* How much do you pay for a library? 
+* What licenses can you use? 
+How many things are available in the ecosystem i.e. surroundings?
+
+### Hard because unfamiliar
+Great, now it is your problem, and you can solve it. If simple things are hard because you're unfamiliar with them, you can just learn them. Complexity knows no such luxury. You'll be forced to find or create a simpler solution if you still want to have an easy time reasoning about your program.
+
+### Hard because complex
+Incidental? Change it. Inherent to the problem? Sucks. 
