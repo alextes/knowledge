@@ -25,6 +25,7 @@ Simplicity.
 Few is not automatically simple. Conversely many is not automatically hard. Addition does not become more complex when one expression features many terms. It might become harder to compute correctly just because humans make errors when making calculations but addition does not become any more complex.
 
 ### Simplicity is objective
+Whether something is interleaved or not is often very possible to simply see from reading a piece of code. Does it do one thing? Is it twisting with something else?
 
 ### Simplicity of understanding vs. obtaining
 Simple to understand is not always simple to obtain.
