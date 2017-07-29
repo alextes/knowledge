@@ -3,7 +3,28 @@ Thoughts on simplicity in software development. Mostly inspired by Simple Made E
 
 Simple is the converse of complex. Complexity in dev is :[ .
 
-## Easy is not simple
-Easy does not mean simple. Conversely hard does not equal complex. A good example is basic algebra. Without primary school arithmetic algebra is very hard to understand. The meaning is not apparent in its symbolism. That said it is easy to learn its meaning because basic arithmetic is simple. The concepts within are simple and immediately obvious. Placing two single apples together makes for a collection of two apples. 1 + 1 = 2.
-Something that is easy to obtain is not necessarily simple. Setting up a web project with templating, SSR, transpiling, in-memory caching during development, and hot reloading can literally be set up in seconds. This says absolutely nothing about how simple this project is to work with, only how easy it is to obtain all the above features.
+## Easy is not simple (nearness)
+Easy does not mean simple. Conversely hard does not equal complex. Easy can be thought of as nearness. How far away is the thing you want to get, lets call this destinational far-ness, or conversely how close are you to the thing you're trying to obtain, origin close-ness. A good example to clarify these concepts with is basic arithmetic. Lets define our knowledge origin as low. Say the knowledge of a 5 or 6 year old. Arithmetic might be very hard to read to a 6 year old but is regardless, very simple to understand. Even the symbolism is simple and that's why it's easy to explain. In other words, basic arithmetic is very near, conceptually no matter what your current knowledge, your origin. The concepts within are simple and immediately obvious. Placing two single apples together makes for a collection of two apples. 1 + 1 = 2.
+
+### Easy is relative
+Things can be _near_ because of your familiarity. Your knowledge origin is close to your knowledge destination.
+
+### Easy to obtain. Convenience. (near)
+
+#### Speed
+
+#### Familiarity
+
+### Easy to understand
+Simplicity.
+
+## Simplicity
+
+### Cardinality
+Few is not automatically simple.
+
+### Simplicity is objective
+
+### Simplicity of understanding vs. obtaining
+Simple to understand is not always simple to obtain.
 
