@@ -27,11 +27,14 @@ It is near in the sense it is easy to obtain. Through tooling, internet. Can you
 Near what we know. Familiarity.
 
 ### Easy to read, use, (simplicity?) through familiarity (near)
-It is near in the sense we can easily get to the state we want to be in.
+It is near in the sense we can easily get to the state we want to be in. If you want everything to be familiar you will never learn anything new.
 
 ### Easy to comprehend
 * Simplicity. (Arithmetic)
 * Immediate apparentness of meaning. (Arithmetic / German)
+
+### Easy, Fast, Effective?
+Only works short term if you ignore complexity. Development does not work in sprints. It's the same codebase every week. Eventually, going the easy route whilst making things more complex slows you down more than it speeds you up.
 
 ## Simplicity
 
