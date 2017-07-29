@@ -62,6 +62,11 @@ Intertwining, and placing together. Place four straight strings together and the
 
 ## How to we design simple things
 Abstract for simplicity. Draw away complexity. Works by breaking up without complecting. How? Ask and don't complect what, who, how, when, where, why. 
+
+There is really too much to be said here. WIP. I'll have to revisit. So many great ideas. I'm x_x .
+
+When you have an orderable, of course you don't explain how to order it. Duh. Now you're complecting what with how. You explain what the order of something is. Alphabetical by ASCII charcode. Not how to sort it. 
+
 ## Conclusions
 
 ### Limiting complexity through choice
@@ -84,4 +89,4 @@ Polymorphism. Define what the order of something is not how to do ordering. Thin
 
 ## Things to consider
 ### So what about Golang?
-Go is king of complecting what with how. It has no generics. You have to define how for every what. Want to map a list with elements of type x? Use a loop that complects what and how.
+Go is king of complecting what with how. It has no generics. You have to define how for every what. Want to map a list with elements of type x? Use a loop that complects what and how. So why are Go programmers so happy with their language regardless?
