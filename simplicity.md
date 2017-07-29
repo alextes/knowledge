@@ -54,7 +54,18 @@ Tests can tell you what not to do. Guardrails can tell drivers they are going so
 ### Incidental complexity
 Code that doesn't change anything for the user but has more complexity than an alternative is incidental complexity. Latin for: your fault. Good examples are tools that make something easier but also add a lot of code, thus behavior, thus increasing complexity.
 
+### Inherent complexity
+Evironmental. Example is the systems we run our programs on. They differ. That makes it complex. This is why we use something like docker. We can't solve this inside our program. Not using too much memory in a program still blows up when enough programs are added to the system. You need more information / control to deal with this. That's why you have a docker agent that refuses to start containers that don't fit.
+
+### Complecting and Composing
+Intertwining, and placing together. Place four straight strings together and their structure is obvious. Braid them, literally 'complect them' and the structure becomes incredibly complex.
+
+## How to we design simple things
+Abstract for simplicity. Draw away complexity. Works by breaking up without complecting. How? Ask and don't complect what, who, how, when, where, why. 
 ## Conclusions
+
+### Limiting complexity through choice
+We look mostly at value, rarely at cost.
 
 ### Hard because difficult to obtain or unobtainable
 Think cost of moving things near.
@@ -66,4 +77,11 @@ How many things are available in the ecosystem i.e. surroundings?
 Great, now it is your problem, and you can solve it. If simple things are hard because you're unfamiliar with them, you can just learn them. Complexity knows no such luxury. You'll be forced to find or create a simpler solution if you still want to have an easy time reasoning about your program.
 
 ### Hard because complex
-Incidental? Change it. Inherent to the problem? Sucks. 
+Incidental? Change it. Inherent to the problem? Sucks. You won't get smarter but you can try to simplify.
+
+### Don't mix what with how
+Polymorphism. Define what the order of something is not how to do ordering. Think Ord in Haskell. Traits in Rust. Interfaces. You do this wrong by supplying a function that sorts a list of x. Make how somebody else's problem.
+
+## Things to consider
+### So what about Golang?
+Go is king of complecting what with how. It has no generics. You have to define how for every what. Want to map a list with elements of type x? Use a loop that complects what and how.
