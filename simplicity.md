@@ -47,3 +47,5 @@ Whether something is interleaved or not is often very possible to simply see fro
 ### Simplicity of understanding vs. obtaining
 Simple to understand is not always simple to obtain.
 
+### Simplicity is crucial for right direction
+Tests can tell you what not to do. Guardrails can tell drivers they are going somewhere they shouldn't. Test can help but also be completely useless in telling you where to go. For this you need to be able to reason about your program. In order to effectively reason about your program it needs to be simple.
