@@ -7,6 +7,7 @@ Things to do with others in or near Amsterdam.
 * Stads Schouwburg (Plays, Dance, Musical).
 * We Are Public AMS.
 * Personal Want To Go list.
+* Check Local app
 
 ## Day filling
 * Explore Dutch islands.
