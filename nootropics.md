@@ -1,4 +1,6 @@
-modafinil
-armodafinil
-L-Theanine
-Huperzine A
+# Nootropics
+List of nootropics I'm interested to try.
+* Modafinil
+* Armodafinil
+* L-Theanine
+* Huperzine A
