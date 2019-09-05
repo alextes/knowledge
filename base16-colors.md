@@ -2,5 +2,4 @@
 * base16-default-dark
 * base16-gruvbox-dark-hard
 * base16-tomorrow-night
-* base16-ia-dark
 * base16-material
