@@ -3,4 +3,4 @@
 * base16-gruvbox-dark-hard
 * base16-tomorrow-night
 * base16-material
-* base16_black-metal-bathory
+* base16-black-metal-bathory
