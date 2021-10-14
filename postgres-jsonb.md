@@ -1,4 +1,4 @@
-## Something on how to add a JSONB column
+## Adding a JSONB column
 
 ## Querying
 `->` ???

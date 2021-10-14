@@ -1,4 +1,4 @@
-“The Skeleton - G.K. Chesterton
+The Skeleton - G.K. Chesterton
 
 Chattering finch and water-fly
 Are not merrier than I;

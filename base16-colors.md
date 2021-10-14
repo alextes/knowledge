@@ -4,3 +4,4 @@
 * base16-tomorrow-night
 * base16-material
 * base16-black-metal-bathory
+* base16-material-darker
