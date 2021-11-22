@@ -1,0 +1,15 @@
+# The Intellectual Incoherence of Cryptoassets
+
+https://www.stephendiehl.com/blog/crypto-absurd.html
+
+Second paragraph I'd say correctly asserts we are still discovering what crypto currencies are useful for. The one nuance I'd add is that we do not understand the value of semiconductors well in that it's hard to say how valuable a semiconductors is. What is clear, is how valuable a phone is. An application of a semiconductor. Once many applications are established, demand for semiconductors becomes more obvious, and so becomes their value. Similarly crypto should be judged by its applications, and will eventually be valued by them too. Speculation meets reality at some point. In this early phase, many would assert most applications of crypto are yet to be discovered.
+
+Third paragraph, crypto as money is interesting because it is my job to spread the idea that it is a good money, an ultra sound one in fact! Straight off Stephen dives into currency. I don't dispute crypto is a bad currency. He gives good reasons why. I fail to see how being controlled makes them a good unit of account but the article doesn't expand on it.
+
+> There can be no separation of money and state, because the state is the only party that could issue money almost by definition.
+
+Yikes haha, I see his point, we won't pay the government in monopoly money, yet I'd implore not to throw out too easily the idea that what you get in return for your hard work has to be controlled by another entity. Which for better or worse, is what _money_ also is to us. Still, to keep things simple, I'd happily grant the point, blockchains are poor stand-ins for currencies.
+
+Yes, Bitcoin is not a commodity. It may become one, but let's keep things simple. The amount of Bitcoin used to transact on the network is relatively low. Yet, the second, fifth, sixth, and eighth blockchains come with an associated crypto currency that you need to do anything in the world of applications they're each trying to build. Whether that use is playing some game or opening a savings account seems besides the point.
+
+Crypto tokens as securities contracts. Here Stephen accurately describes many tokens. Invest in a group. They try to get more buyers. Number go up. You sell. This is the return you get on your investment. The author argues this is stocks but worse as there is no underlying business besides getting more buyers. ...yes, that describes many cryptocurrencies. Yet, I'd challenge that you'll have a hard time finding a blockchain in the top 100 with no underlying business, besides trying to get more buyers.

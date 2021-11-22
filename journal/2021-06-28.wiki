@@ -1,0 +1,14 @@
+* [x] call mom
+* [x] call dad
+* [x] fix crawl-latest bug
+* [x] add alarm for errors
+* [x] create following endpoint
+* [x] check David supply graph work
+* [x] tax letters
+* [ ] build burn leaderboard
+* [ ] shut down company
+* [ ] build fee burn over time
+* [ ] track one more month of expenses
+* [ ] create budget per-month to figure out exact burn rate
+* [ ] build total fund valuation
+* [ ] farm

@@ -1,0 +1,9 @@
+* [x] deploy serve-profiles
+* [x] deploy crawl-latest
+* [x] build update-fam
+* [x] deploy update-fam
+* [ ] build crawl-people-hourly
+* [ ] deploy crawl-hourly
+* [ ] use twitter_id instead of handle to identify
+* [ ] build oauth-1.0
+* [ ] sync private lists

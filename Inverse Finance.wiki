@@ -1,0 +1,16 @@
+# Inverse Finance
+- You may want exposure to new, volatile, high risk, high reward assets, but you may not want to risk your hard earned collateral to do so. Inverse Finance lets you deposit stable assets and uses them to farm yields that are converted into more volatile assets like ETH. Deposit X / Earn Y.
+- Unaudited.
+- $INV is collateral over on Ruler i.e. borrow $DAI against $INV without risking liquidation.
+- Dune analytics dashboard https://explore.duneanalytics.com/public/dashboards/gbPtUxMVq5rWDEU2D0W9o6z4E7clgsDEgzmh4IvZ
+- Inverse DAO is also behind Anchor and $DOLA which is where things get interesting. You know $COMP and $AAVE, deposit collateral, earn yield, borrow against collateral. You know $MKR, $SNX, deposit, get a borrowed synth, swap for whatever you like. Now combine them.
+- Earn yield on your deposit whilst borrowing against it. Similar to $ALCX but more types of collateral than just DAI, liquidations are possible, which allegedly allows for more capital efficiency.
+- Promising, though incentivized growth of $DOLA liquidity.
+- Tokenomics
+    - Early days for $INV, but 2000 unique addresses already. Big names in defi spotted (banteg, 0x_b1, )
+    - 81% of $INV have been held for 60+ days, so mostly dropped. DAO seized $INV from inactive holders.
+    - 100k supply, 54% held by DAO, the rest seems widely spread. Minting possible.
+    - 54M market cap.
+    - Although Inverse seems to have gone above and beyond to drop to invested participants, the drop is large enough where some weak hands breaking are to be expected.
+    - Intentionally set up not to be a yielding asset.
+- Honestly, this seems like an epic DAO, at the same time, $INV seems like a token for participants, not shorter-term investors.

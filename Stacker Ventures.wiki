@@ -1,0 +1,15 @@
+# Stacker Ventures
+- Access private investments, managed by a DAO, funded with a token.
+- Investing is hard. What to invest in, at which price, and when to exit. Additionally, investing can be a walled garden. Not everyone gets into private investment rounds or even VC funds. SV appears to open up both.
+- Stacker Ventures is not a single fund, it's an org to facilitate community funds. The first fund, is created and managed by the Stacker DAO.
+- Governance is not entirely open. It is tiered. 10 $STACK early-access, small rewards. 1k vote fund 1 investments, access to due diligence. 20k, right to make proposals, one vote in gate-keeping this tier.
+- Funds can farm unused capital. Fund 1 farms ETH on Alpha Homora.
+- Incentivized Fund 1. Daily reward (403% APY) and 50K was contributed to the fund itself . Incentivized uni pool (564% APY).
+- Tokenomics.
+    - Governance token mainly. Funds may pay small amount back to DAO, not sure why they would.
+    - DAO treasury holds 56%, core contributors got 20% 1y vesting, private investors (ironic) 6%, another ~23% is going to incentives.
+- Major question will be if funds can get in on early stage investments, and if the services provided by the fund framework will eventually be valuable enough where funds are happy to pay fees back to SV.
+- Resources
+    - https://blog.stacker.vc/
+    - https://stacker.vc/fund1
+    - https://docs.stacker.vc/docs-stacker-ventures/

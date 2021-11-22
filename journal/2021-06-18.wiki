@@ -1,0 +1,5 @@
+* [ ] Figure out short / medium term income.
+   * [ ] Evaluate farming income.
+   * [ ] Evaluate [[ultrasound.money income]].
+   * [ ] Evaluate Ultrasound DAO income.
+* [ ] Map and cut expenses.

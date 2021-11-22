@@ -1,0 +1,3 @@
+# Decentralization
+
+A group of actors following an agreed-upon set of rules, where the authority to call out rule violations is shared by all actors. Asserting behavior is rule-abiding should be deterministic.

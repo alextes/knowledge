@@ -1,0 +1,5 @@
+* [x] build crawl-people-hourly
+* [x] deploy crawl-hourly
+* [x] use twitter_id instead of handle to identify
+* [x] build oauth-1.0
+* [x] sync private lists

@@ -1,0 +1,6 @@
+- Podcast Notes
+   - Profit Maximalist /w Sam Trabucco
+        - High open interest can cause cascading liquidations.
+        - Breaking long time untested local bottoms tends to lead to big moves.
+        - Bottoms on liquidation cascading tend to be found by simply watching the flow of liquidations.
+- We're writing about 

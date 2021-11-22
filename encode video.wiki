@@ -1,0 +1,30 @@
+# Encoding video for the web
+
+## generate cover image
+```sh
+ffmpeg -i "$1" -vframes 1 -vf scale=$3:-2 -q:v 1 "$2.jpg"
+```
+
+## mp4
+
+### no audio
+```
+ffmpeg -i "$1" -an -vf scale=$3:-2 -vcodec libx264 -pix_fmt yuv420p -profile:v baseline -level 3.0 -movflags +faststart -threads 0 -preset veryslow "$2.mp4"
+```
+
+### with audio
+```
+ffmpeg -i "$1" -an -vf scale=$3:-2 -vcodec libx264 -pix_fmt yuv420p -c:a aac -profile:v baseline -level 3.0 -movflags +faststart -threads 0 -preset veryslow "$2.mp4"
+```
+
+## webm
+```
+ffmpeg -i "$1" -vf scale=$3:-2 -c:v libvpx-vp9 -pass 1 -b:v 1000K -threads 1 -speed 4 \
+  -tile-columns 0 -frame-parallel 0 \
+  -g 9999 -aq-mode 0 -an -f webm /dev/null
+
+
+ffmpeg -i "$1" -vf scale=$3:-2 -c:v libvpx-vp9 -pass 2 -b:v 1000K -threads 1 -speed 0 \
+  -tile-columns 0 -frame-parallel 0 -auto-alt-ref 1 -lag-in-frames 25 \
+  -g 9999 -aq-mode 0 -c:a libopus -b:a 64k -f webm "$2"
+```

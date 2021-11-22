@@ -1,0 +1,13 @@
+# Protocols
+
+- [[mStable]] - building autonomous and non-custodial pegged asset infrastructure.
+- [[Inverse Finance]] - earn volatile assets with stable collateral
+- [[Alchemix]] - borrow against collateral that earns yield that pays your debt
+- [[Unit Protocol]] - borrow stables against many tokens
+- [[Rari Capital]] - earn on idle capital???
+- [[Circles]] - basic income on the blockchain
+- [[FVT]] - token prediction market
+- [[Bancor]] - single-sided automated market marker with impermanent loss insurance
+- [[Stacker Ventures]] - early stage investment DAO
+- [[Synthetix]] - the liquidity backbone to a vast range of derivative assets
+- [[Liquity]] - decentralized stablecoin borrowing against ETH

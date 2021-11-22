@@ -1,0 +1,18 @@
+# ETH2 Staking
+
+* a slot is a time period of 12s.
+* one epoch is 32 slots.
+* every validator has to broadcast an attestation for one slot, every epoch.
+* an epoch gets justified, then finalized.
+* once there is enough justification for an epoch it will get finalized.
+* ETH2 favors liveness over finality. For low value transactions we can opt to forego finality.
+
+Validators need to stake 32 ETH. When participating helpfully they receive small rewards.  When failing to participate helpfully while staked they receive small penalties.
+
+* Attestation, validators show up during their assigned slots.
+* Justification, validators signal what block they think will finalize
+* Finality, validators agree to finalize a block. 12.8 min.
+
+## Slashing
+
+A key is associated with the staked ETH to sign messages. Slashing happens when a node does something that is provably very bad for the network. Like signing two messages within the same epoch with a single key. Punishment depends on the amount of nefarious activity going on.

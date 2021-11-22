@@ -1,0 +1,8 @@
+Focus on finishing up small tasks, then some out and contemplate bigger direction.
+
+Today's tasks
+* [x] enable CORS on serve-profiles
+* [ ] deploy serve-profiles
+* [ ] deploy crawl-latest
+* [ ] build crawl-people-hourly
+* [ ] deploy crawl-hourly

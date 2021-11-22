@@ -1,0 +1,12 @@
+# Bancor
+
+- In AMMs the name of the game is liquidity. Why? Because in XYK models ($UNI) the bigger the pool, the more efficient the swap. Imagine pooling two tokens, X and Y, make X USD and Y TKN. Pool 10 of each, and allow people to swap. This seems like a good plan if 1 TKN is worth 1 USD, until it isn't. If TKN becomes worth more, someone would come and swap all the TKN for USD 1:1 and not have any reason to return them until the price would fall below. To fix this, for every swap that moves the ratio away from 1:1 we make the swap more expensive. Enter the x*y=k formula AMMs like Uniswap use. If you have 20 X tokens and 20 Y tokens, k = 400, and k has to remain constant e.g. if pool has 20 Xs and 20 Ys and you want to take 10 Ys the protocol will ask for 20 Xs, to keep k = 400. You took 50% of the Ys in the pool but had to put in 100% Xs to keep the pool "balanced"! Price went from 1 X/Y to 2 X/Y, 100% increase! Look at this xy=k curve and it becomes obvious the further we move from the lower-left, the bit that looks the most curved, the quicker the price runs away in either direction. Great to keep the price reflecting the "real" price, but not so great if you're looking to pay 1 X/Y. The price slips. The bigger the liquidity, or smaller your trade, the smaller this price slippage. This means traders want to trade against the largest pool.
+- What if all tradable token pairs had one token in common any time liquidity in one pool increased, the liquidity of all pools increased?
+- Add impermanent loss insurance. Paid for by the protocol, if need be by diluting BNT.
+- Protocol offers leveraged yield farming to lock more BNT.
+- Basket compare
+    - Uniswap, fees $2.913M, market cap $17.58B, 
+    - SushiSwap, fees $736K, market cap $2.59B
+    - Balancer, fees $208K, market cap $613M
+    - Bancor, fees $130K, market cap $1.33B
+    - 0x, fees $15.7K, market cap $1.15B

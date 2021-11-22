@@ -1,0 +1,3 @@
+* [x] capture expenses for last month
+* [x] stop all subscriptions
+* [x] explore implement lookup graph degree

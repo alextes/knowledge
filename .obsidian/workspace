@@ -1,0 +1,101 @@
+{
+  "main": {
+    "id": "4500dca01f139f46",
+    "type": "split",
+    "children": [
+      {
+        "id": "7dcf4b5ed9bb6955",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "why-are-GANs-powerful.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cc70644a33e2edbb",
+    "type": "split",
+    "children": [
+      {
+        "id": "75d1529a05803c7c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "429f2f8a6f4951c3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c40655081a6d1823",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ac8706ab8ab58e8a",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba178645d2d611e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a14f49f261fae69",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "why-are-GANs-powerful.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "7dcf4b5ed9bb6955",
+  "lastOpenFiles": [
+    "why-are-GANs-powerful.md",
+    "reasonml-adoption-concerns.md",
+    "on-writing.md",
+    "meditation-notes.md",
+    "ask-ljharb-anything.md",
+    "base16-colors.md",
+    "huel-flavor-boosts-scores.md",
+    "poems.md",
+    "postgres-jsonb.md",
+    "git-lfs.md"
+  ]
+}

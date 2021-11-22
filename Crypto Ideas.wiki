@@ -1,0 +1,118 @@
+# Crypto Ideas
+
+Create 0x markets for assets people haven't thought of
+- game items
+
+Bunq plugin, round transactions save the change in crypto (donut)
+
+Portfolio balancing of liquid assets in crypto for businesses
+
+Farm expired tokens
+
+Explore UMA?
+
+Spot big money moving early, anticipate price effect, trade ahead of the transaction
+
+Community decides what devs work on. Devs earn tokens by writing code. Devs need to get PRs approved using proof-of-stake as oracle.
+
+Accessible yearn
+
+easy yield farming
+
+easy gas buying at low price points for future transactions
+
+ETH gas trading
+
+Use the stupid amount of cheap borrow capital available due to people wanting to farm yields.
+
+Borrow yield farming? Move cheap borrowed crypto to better yielding pools
+
+Try to make profit swapping tokens
+- find delayed-correlated assets
+- try to be the first mover
+
+Pools are too expensive to buy into, offer some sidechain buy-in for people. Keep the tokens in the pool, transfer the ownership.
+
+Accurate stake reward overview
+
+Audit list, list of tokens or contracts, and whether they've been audited. For lack of a reputation token. Offer a key to the auditing firms listed. Reputation pool where people can donate. Let people stake? money in the pool. Maintainer of the list can take out 1% of the pool per week. Any key holder can return the pool to the stakees.
+
+Loopring zero fee arbitrage
+
+Have bots watching for the next ETH price dive to buy all the DAI collateral ETH that gets auctioned off
+
+Coin based on YFI, the only difference, if you put in less, you get more of the yield. Needs one account per participant. Governance sets balancing rate. Bad idea, no positive externality.
+
+reputation coin (how else do lending?)
+
+Cryptowatch for tokens on AMMs
+
+Eth gas alert, maybe even queue trades for low gas time
+
+Token that exposes you to all rising tokens
+https://medium.com/@andre_54855/profit-taking-2019-ytd-a8069ba39c74?source=---------30----------------------------
+
+Arb liquidity, arb traders want instant liquidity in cryptos to make arb trades. Offer n cryptos for traders to trade with. Transactions need to buy/sell in one block but can be in different cryptos.
+
+Who bought early and how many followers do they have?
+
+Withdraw or swap, for small amounts swapping out of a pool is cheaper
+
+Active. Yield farming where rewards go to those who are active (could be as simple as pushing a button every day.. Lost?)
+
+Just the token. Get the it farm token, skip the deposit steps.
+
+Wrap bitcoin for people, pay them part of the gained value for BTC -> wBTC
+
+Track performance of your crypto swaps. Cryptowatch but for swaps. i.e. I swapped eth for pickle, did I make a profit? Could have multi swap charts. i.e. show me my ETH trades, would draw prices of all tokens you traded against ETH, then drawing a vertical line at points in time where you swapped, you could visualize the vertical difference between the two price lines and how they progressed.
+
+Execute contract actions on price alerts.
+
+Uniswap price alerts
+
+Trade performance, provide wallet address, see your swap performance on a chart
+
+Uniswap new token feed (moontools.io)
+
+Become KP3R
+
+Price for any token, including those given out by AAVE, KeeperDAO, Yearn etc.
+
+Uniswap to google sheet data service
+
+ethereum address to twitter account
+
+Check right now. Surface the projects that you should check out right now.
+
+Make on-chain shorts visible.
+
+Scan blocks for token swaps. Give alerts on waves of token swaps that are large compared to MC.
+
+Let anyone add contract with token address, and what exchange it trades on.
+
+Fair launchpad
+
+ape farmer, scan vfat github, ape in first
+
+## Arbitrage
+What if one coin drove the price of others.
+
+Leverage and get yield.
+
+Why is Dai not at `$1.00`
+
+Pine relay
+
+Bring uniswap in line with exhanges
+
+renbtc, uniswap <-> balancer
+
+Arbitrage loss, anticipate Oracle price updates
+
+estimate the price impact of harvest() on large contracts, front-run or trade the wave.
+
+Spot large uniswap swap in mempool, put in flash swap to bring uni back in line with market using other AMMs
+
+Moonswap (L2) arb
+
+Send bitcoin using Ethereum L2, make el salvadorians happy

@@ -1,0 +1,12 @@
+# mStable
+- Purpose
+  - Enables holding an asset on ethereum pegged to something else a user's primary concern is to hold an asset with equally priced alternatives on Ethereum, e.g. USD stables, different BTC wrappings, and other somehow pegged assets, mStable might provide a valuable solution. When considering which stablecoin to use, the answer might be, I don't care, as long as I can use it like I would the underlying. I'd say our primary concern is that we hold peg, and this is where mStable shines. Secondarily, I'd say we'd like some bonus utility, or yield, this is where I find mStable weaker.
+  - Robustness. Pool the alternatives, offer a token (mAsset) that can be minted, and redeemed 1:1. As long as you're ambivalent about which one. If any of the underlying implodes, cover with staked MTA and if necessary unstaked MTA (dilution).
+  - Yield. One underlying asset may always outperform another, and so I expect mAssets will underperform. Perhaps one day arb and yield protocols may bridge the difference but not today. mStable tries to keep the underlying in-balance, you're trading yield for robustness. That said mStable offers to deposit mUSD with them and earn yield for you. Interesting to see how high these will go i.e. how much you'd pay for reducing exposure to a USD stable imploding. Perhaps even eventually even outperforming actors that only occasionally swap between alts, as a protocol could automate this.
+- Tokenomics
+  - Large allocation to liquidity providers and stakers. Decent allocation to team and investors.
+  - ![Image for post](https://miro.medium.com/max/718/1*Zm5hRHdn1xghKUbQsV8STA.png)
+- Potential
+  - mStable offers 1:1 swapping too, they hold bAssets, and charge a small 0.06% fee. There is an issue with this, as swaps are 1:1 but bAssets have small value differences, the most valuable disappears and the least valuable fills the pool. mStable is evolving with MIP-7 to a model similar to Curve's StableSwap but limiting distribution within pools according to weights, whilst also keeping mAsset value stable. Regardless, currently, where bAssets are available Curve is more efficient, where they aren't Curve would've been less efficient.
+  - If bAssets start blowing up, mStable is the safe-haven.
+  - If earning good yield means swapping between alts frequently, protocols abstracting this away could outperform regular actors.

@@ -1,0 +1,32 @@
+# Sync meeting Aug 4 launch
+[[ultrasound money]]
+
+## Questions
+* Eth issuance stat blocks, where does the data come from?
+* Is seven day feature freeze a reasonable aim?
+* Supply graph error (but works)
+* Eth price and gas
+* Poap section
+* Poap Holder page
+
+## Open work
+* [shuvo] Build with issuance as linear-ish
+* [shuvo] Animate network numbers blocks on scroll
+* [shuvo] Animate block burn start
+* [shuvo] Integrate ETH price + gas data API
+* [shuvo] Put gas price first in top left
+* [shuvo] Hero image only light beam
+* [shuvo] Sticky nav bar timeline at top
+* [shuvo] Fourth block starts burning at eip-1559
+* [shuvo] Two-column enter ultrasound money, scroll left-column, animate right column
+* [alex] Build & integrate ETH burned API
+* [alex] Build burn leaderboard API
+* [alex] Build burn leaderboard component
+* [alex] Build fee burn over time API
+* [alex] Build fee burn over time graph
+* [justin] Poap section
+
+### Want to have
+* [open] Upgrade with issuance as reflecting historical
+* [open] Vertical line animation on scroll
+* [alex] Own api ETH price, gas

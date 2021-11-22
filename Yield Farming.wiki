@@ -1,0 +1,21 @@
+# Yield Farming
+
+- Speculating vs. yield farming
+    - Value stable cryptos exist, some pegged to the dollar, some floating. At the time of writing stables yield 6% - 18%. When farming new protocols that are emitting their governance token, yields may even go as high as 80% - 200% as prices of the reward token boom. The biggest yields however, are found when speculating while yield farming by farming with tokens you do not yet have. This type of farming is called pool 2 farming. Whereas pool 1 lets you farm with tokens you already have and want, pool 2 asks you to swap some of the premium tokens for less desirable tokens, promising high yields. Often pool 2s include a positive feedback loop where farming the high yield requires buying a token that is the emission token as well, driving projected yields even higher as price explodes.
+    - In order to safely farm pool 2, we have to track ...
+    - Calculating profits we want to know what we started with and what we're ending with. What we're ending with is pretty simple to calculate, what we started with is harder. Let's call what we're starting with our base collateral. Base collateral is also important to decide how much risk we're taking with speculating. Similarly, we want to know whether it is farming or speculating that is earning us money.
+    - To track both what the value of our initial capital was, how much we're earning by speculating, and how much we're earning by farming, we track the following
+        - Value invested in USD at farm start
+        - Value of the farmed tokens at farm start
+        - Current value of the farmed tokens
+        - Current value of the farm
+- Impermanent Loss
+    - Many farms ask for tokens that are LP tokens. Liquidity Provision tokens provide liquidity for trading a certain pair. Given you already own both tokens in the pair but do not LP, you would expose yourself to risk in making both available as liquidity. The risk is simply that people trade, and in doing so, take a bit more of the appreciating token than they pay in the depreciating token. Therefore, it is important to track our impermanent loss. This loss is called impermanent as the loss would disappear if the price ratio returned to the point it was at when you put your tokens in. The simple way to track it is to write down how much of each token you put in and at what price, so you may easily track what they are worth now.
+    - Many farms use one own token paired with a more desirable token. Often referred to as pool 2. Depreciation of the own token is __key__ for expected yields. Consider adding an indicator or risk modeling the depreciation of core LP.
+- Calculating APY
+    - Calculating APY is tricky as the farmed collateral is often volatile. Secondly, the rewarded token, i.e. yield, may be highly volatile in price too. Any farmer will readily admit that the expectation of the current prices holding for the rest of the year is ludicrous. The simplest prediction left is to take total earnings on top of the initial balance and extrapolate them for the year. After all, APY is currently used just as much to decide where we put our money for the next week as it is the next year.
+    - Simplest model: how much did our base + harvest appreciate? Extrapolate to a year.
+        - Calculation: `(value - base + harvest / days_farmed) * 365 / base`
+    - First risk adjusted model: expect to exit with 70% of base, expect next harvest to be 80% of expected.
+        - Calculation: `(((harvested + to_harvest * 0.8) / days_farmed * 365) - base * .3) / base`
+    - ^^Current risk adjusted model does not extrapolate depreciation of core collateral! Incorporate it.^^

@@ -1,0 +1,8 @@
+* [ ] build burn leaderboard
+* [x] tax letters
+* [ ] shut down company
+* [ ] build fee burn over time
+* [ ] track one more month of expenses
+* [ ] create budget per-month to figure out exact burn rate
+* [ ] build total fund valuation
+* [ ] farm

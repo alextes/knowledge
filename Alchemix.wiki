@@ -1,0 +1,8 @@
+# Alchemix
+
+- Deposit Dai, yield farm, __and__ borrow with 0% interest against it. At the same time? At the same time! Let's get into alchemix.
+- Create synthetic tokens that represent a claim on future yield.
+- MakerDAO ETH-A, 150% liquidation ratio, so even a degen would keep their collateral ratio above 200%, what is ALCX vault min collateral ratio? 200%!
+- Leveraged yield farming. Dai -> alUSD -> swap Dai -> deposit -> alUSD
+- Is alUSD stable? It tries to, but in its short history, no.
+    - Stabilisation, there is a delayed price floor of $1 for alUSD. What do I mean by delayed? ALCX gave you the alUSD against the future yield, and that is where that Dai is, in the future. So although ALCX can't promise to give you 1 Dai for every alUSD now, it can do so in the future. This is the transmuter. Lock alUSD, see it slowly convert to Dai.

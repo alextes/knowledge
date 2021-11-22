@@ -1,0 +1,6 @@
+# Liquity
+
+- tokenomics
+    - No-governance! Only fee payments to staking holders. This changes things! From a valuation perspective, governance tokens are like shares. In crypto no one owns the protocol, instead, we vote on modifications to make. It's not the same, but it's close. For example: to decide what AMZN is worth today, we imagine what it'll be worth tomorrow. This is complex! With Liquity, it's much simpler. There is no governance. The protocol cannot change. The only question is  Most projects issue tokens with voting rights, or other utility. Voting tokens, or shares, accrue value as a project becomes more valuable.
+    - Calculating a fair price for LQTY. Say we're happy to hold LQTY for a year.
+        - 3.705 LUSD after 24h, on 17 LQTY. 79.44 LUSD yield per year per LQTY. If you want at least 100 APY, you'd be happy to buy LQTY at 40 USD. 
