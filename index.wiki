@@ -1,5 +1,4 @@
 # Index
 
 [[protocols]]
-[[ultrasound money]]
 [[encode video]]
