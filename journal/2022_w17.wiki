@@ -1,0 +1,23 @@
+yesterday worked on:
+* investigate broken nft go cronjobs
+* build a web crawler
+* tested it to work remotely, some way to update the NFT section in 30s. Do that manually every now and then or invest hours to automate the crawler, lower rate to a request an hour, maybe a day, at that point it'd be cheap to re-enable etherscan name tag crawling.
+* investigated reducing retention period for logs to increase stability
+* turned off fine-grained logging in production
+* metadata timeout logic
+
+also:
+* added two sets of twitter keys
+
+today:
+* turn on auto-dms
+* fix logging based alerts
+* finish adding tooltip to leaderboard
+* plan a call with Steven
+* plan a call with Matthew
+* next, issuance breakdown
+* next, fix list adding
+
+other:
+* better journey starts here resource
+* open-source the codebase
