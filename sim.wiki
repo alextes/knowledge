@@ -1,0 +1,70 @@
+# Sim
+A world simulator.
+
+# Simulation rate
+Many systems require time passed as one of their inputs. To create a shared notion of time, 10 simulation units (SU) are considered equal to one second of time. i.e. whenever our program takes more than 1/10 of a second to complete a simulation unit, Sim will be slowed relative to reality. Different systems may update at different TU intervals.
+
+# Sun
+Sun is a simple number between zero and one. Zero being no sun, one extreme sun. Every 50k ticks the sun sets, dropping sun to zero, until 50k ticks later sun increases again. The max is randomly set for a day and smoothly hit 25k ticks into the day. TU interval is 1k.
+
+# Plants
+Grow from the earth. Grasses, trees, and shrubs.
+
+## Grasses
+Grows from the soil given the soil contains enough water, and the tile receives enough sunlight.
+
+Spawn chance of grass can be described as a chance for any given tile with earth to spawn grass. This chance is zero under the worst conditions and 1/THIRTY_DAYS_TU when all conditions are neutral with respect to grass growing. Relevant conditions are:
+* sun
+* water available in the soil
+* nearby grass
+
+Sun is a multiplier that under the worst conditions drops the chance to zero, under the best makes it twice as likely for grass to spawn. This is a sweetspot multiplier meaning "the worst" is both very high sun and low sun. Curve is:
+effect -1. -.9 -.7 -.5 +.1 +.3 +.6 +1.  0. -.8 -1.
+sun     0.  .1  .2  .3  .4  .5  .6  .7  .8  .9  1.
+
+Water is a multiplier that under the worst conditions drops chances to zero, under the best makes it twice as likely for grass to spawn. This is a sweetspot multiplier meaning "the worst" is both lots of water and very little. Curve is:
+effect -1. -.5  .0 +.5 +.8 +1. +.8 +.4 +0. -.2 -1.
+water   0.  .1  .2  .3  .4  .5  .6  .7  .8  .9  1.
+
+Nearby grass makes growing new grass at worst neutral, at best four times as likely. as we're working with a grid but do mind real spatial distance. That means there is at most four adjacent grass and four diagonal grass. Diagonal grass giving sqrt(2) adjacency bonus.
+effect  0.                 +.5                 +1.
+grass   0.                 4.8                 9.7
+
+Making the formula for the chance: 1 / THIRTY_DAYS_TU * sun_multiplier * water_multiplier * grass_multiplier
+
+### Grass
+graphic: '
+
+### Dense Grass
+graphic: "
+
+### Shrubs
+graphic: #
+
+## Trees
+* source of wood
+* need multi-tile and z-level support
+
+# Animals
+## Squirrel
+Small animal that hangs out in trees or foresty floors. Eats fruits, flowers, veggies, fungi, nuts, tree, plants and insects.
+
+### Behaviors
+* eating
+* mating
+* resting
+
+## Goat
+Although most goat-antelopes are gregarious and have fairly stocky builds, they diverge in many other ways – the muskox (Ovibos moschatus) is adapted to the extreme cold of the tundra; the mountain goat (Oreamnos americanus) of North America is specialised for very rugged terrain; the urial (Ovis orientalis) occupies a largely infertile area from Kashmir to Iran, including much desert country. The Armenian mouflon (Ovis gmelini gmelini) is thought to be the ancestor of the modern domestic sheep (Ovis aries).
+
+The lifestyles of caprids fall into two broad classes: 'resource-defenders', which are territorial and defend a small, food-rich area against other members of the same species; and 'grazers', which gather together into herds and roam freely over a larger, usually relatively infertile area.
+
+### Behaviors
+* eating
+* mating
+* resting
+* roaming in search of food
+* gather in herds
+* defending food rich area
+
+## Deer
