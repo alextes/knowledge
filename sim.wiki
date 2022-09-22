@@ -2,10 +2,10 @@
 A world simulator.
 
 # Simulation rate
-Many systems require time passed as one of their inputs. To create a shared notion of time, 10 simulation units (SU) are considered equal to one second of time. i.e. whenever our program takes more than 1/10 of a second to complete a simulation unit, Sim will be slowed relative to reality. Different systems may update at different TU intervals.
+Many systems require time passed as one of their inputs. To create a shared notion of time, 10 simulation units (SU) are considered equal to one second of time. i.e. whenever our program takes more than 1/10 of a second to complete a simulation unit, Sim will be slowed relative to reality. Different systems may update at different SU intervals.
 
 # Sun
-Sun is a simple number between zero and one. Zero being no sun, one extreme sun. Every 50k ticks the sun sets, dropping sun to zero, until 50k ticks later sun increases again. The max is randomly set for a day and smoothly hit 25k ticks into the day. TU interval is 1k.
+Sun is a simple number between zero and one. Zero being no sun, one extreme sun. Every 50k ticks the sun sets, dropping sun to zero, until 50k ticks later sun increases again. The max is randomly set for a day and smoothly hit 25k ticks into the day. SU interval is 1k.
 
 # Plants
 Grow from the earth. Grasses, trees, and shrubs.
